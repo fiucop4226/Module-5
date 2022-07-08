@@ -114,5 +114,21 @@ namespace Module5
             }
             
         }
+
+        private void cutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(this.textEditor.Text);
+            this.textEditor.Text = "";
+        }
+
+        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(this.textEditor.Text);
+        }
+
+        private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.textEditor.Text = this.textEditor.Text + Clipboard.GetText();
+        }
     }
 }
