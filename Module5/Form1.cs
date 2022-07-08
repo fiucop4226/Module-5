@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -65,6 +66,53 @@ namespace Module5
         private void textToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void statusChange(object sender, EventArgs e)
+        {
+            toolStripStatusLabel1.Text = "typing...";
+            
+
+        }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void saveIsClicked(object sender, EventArgs e)
+        {
+            toolStripStatusLabel1.Text = "Ready";
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.FileName = "hi";
+            saveFileDialog.DefaultExt = ".txt";
+            saveFileDialog.Filter = "Text documents (.txt)|*.txt";
+            saveFileDialog.ShowDialog();
+            string fileName = saveFileDialog.FileName;
+
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Stream st;
+            OpenFileDialog f = new OpenFileDialog();
+            if (f.ShowDialog() == DialogResult.OK)
+            {
+                if ((st = f.OpenFile()) != null)
+                {
+                    string s = f.FileName;
+                    String str = File.ReadAllText(s);
+                    textEditor.Text = str;
+
+                }
+
+            }
+            
         }
     }
 }

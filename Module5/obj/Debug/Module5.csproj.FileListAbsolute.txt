@@ -10,3 +10,15 @@ C:\Users\PC\source\repos\Module5\Module5\obj\Debug\Module5.csproj.CoreCompileInp
 C:\Users\PC\source\repos\Module5\Module5\obj\Debug\Module5.exe
 C:\Users\PC\source\repos\Module5\Module5\obj\Debug\Module5.pdb
 C:\Users\PC\source\repos\Module5\Module5\obj\Debug\Module5.Preference.resources
+C:\Users\chapi\source\repos\Module5\Module5\bin\Debug\Module5.exe.config
+C:\Users\chapi\source\repos\Module5\Module5\bin\Debug\Module5.exe
+C:\Users\chapi\source\repos\Module5\Module5\bin\Debug\Module5.pdb
+C:\Users\chapi\source\repos\Module5\Module5\obj\Debug\Module5.csproj.AssemblyReference.cache
+C:\Users\chapi\source\repos\Module5\Module5\obj\Debug\Module5.csproj.SuggestedBindingRedirects.cache
+C:\Users\chapi\source\repos\Module5\Module5\obj\Debug\Module5.Form1.resources
+C:\Users\chapi\source\repos\Module5\Module5\obj\Debug\Module5.Preference.resources
+C:\Users\chapi\source\repos\Module5\Module5\obj\Debug\Module5.Properties.Resources.resources
+C:\Users\chapi\source\repos\Module5\Module5\obj\Debug\Module5.csproj.GenerateResource.cache
+C:\Users\chapi\source\repos\Module5\Module5\obj\Debug\Module5.csproj.CoreCompileInputs.cache
+C:\Users\chapi\source\repos\Module5\Module5\obj\Debug\Module5.exe
+C:\Users\chapi\source\repos\Module5\Module5\obj\Debug\Module5.pdb
